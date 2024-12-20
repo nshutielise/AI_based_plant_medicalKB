@@ -1,0 +1,9 @@
+INFO [main] build info | build=1 commit="7c26775" tid="140438499714944" timestamp=1734706249
+INFO [main] system info | n_threads=16 n_threads_batch=-1 system_info="AVX = 1 | AVX_VNNI = 0 | AVX2 = 1 | AVX512 = 0 | AVX512_VBMI = 0 | AVX512_VNNI = 0 | AVX512_BF16 = 0 | FMA = 1 | NEON = 0 | SVE = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 1 | VSX = 0 | MATMUL_INT8 = 0 | LLAMAFILE = 1 | " tid="140438499714944" timestamp=1734706249 total_threads=32
+INFO [main] HTTP server listening | hostname="127.0.0.1" n_threads_http="31" port="50399" tid="140438499714944" timestamp=1734706249
+INFO [main] model loaded | tid="140438499714944" timestamp=1734706250
+[GIN] 2024/12/20 - 14:51:25 | 200 | 36.114888099s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2024/12/20 - 14:52:44 | 200 |  42.55955565s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2024/12/20 - 14:56:19 | 200 | 47.928919768s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2024/12/20 - 14:58:44 | 200 |         1m23s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2024/12/20 - 15:00:20 | 200 |         1m15s |       127.0.0.1 | POST     "/api/chat"
